@@ -14,7 +14,7 @@ const uploadToS3 = async (file: File, email: string) => {
 
   const base64FileContent = Buffer.from(fileBlob).toString('base64');
 
-  const apiGatewayUrl = import.meta.env.VITE_API_GATEWAY_URL || '';
+  const apiGatewayUrl = import.meta.env.VITE_API_GATEWAY_URL || ''; // For Production this should be in secrets
 
   console.log('API Gateway URL:', apiGatewayUrl);
 
