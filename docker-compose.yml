@@ -1,0 +1,9 @@
+services:
+  frontend_app_container:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: frontend_app_image
+    ports:
+      - '80:80'
