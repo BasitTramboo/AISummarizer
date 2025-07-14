@@ -116,19 +116,6 @@ The system follows a modular, three-tier, serverless architecture:
 3. CloudFormation deploys stack with automatic rollback on failure.
 4. CloudFront cache invalidation ensures updated frontend.
 
-### Deployment Screenshots
-- IaC Deployment: ![IaC Deployment](Images/Iaac.png)
-- CloudWatch Alarms: ![CloudWatch Alarms](Images/Alarms.png)
-- API Gateway: ![API Gateway](Images/API gateway.png)
-- VPC Endpoints: ![VPC Endpoints](Images/End points.png)
-- IAM Policies: ![IAM Policies](Images/IAM.png)
-- Internet Gateway: ![Internet Gateway](Images/igw.png)
-- Lambda Functions: ![Lambda Functions](Images/lambda.png)
-- Log Groups: ![Log Groups](Images/logs.png)
-- NAT Gateway: ![NAT Gateway](Images/nat.png)
-- Security Groups: ![Security Groups](Images/SecurityGroup.png)
-- VPC: ![VPC](Images/vpc.png)
-
 ## Testing and Validation
 ### Manual Testing
 - **File Upload**: Validated PDF/JPG uploads to S3.
